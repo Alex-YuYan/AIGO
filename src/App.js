@@ -1,5 +1,5 @@
 import { Routes, Route, Link } from "react-router-dom";
-import Background from "./Background";
+import Prologue from "./Prologue";
 import Intro from "./Intro";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       </div>
       <Routes>
         <Route path="/" element={<Intro />} />
-        <Route path="bg" element={<Background />} />
+        <Route path="prologue" element={<Prologue />} />
       </Routes>
       {/* Footer */}
       <div className="w-full pt-16 pb-6 text-sm text-center md:text-left fade-in">
