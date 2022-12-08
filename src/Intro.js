@@ -13,9 +13,11 @@ const Intro = () => (
 
         <form className="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
           <div className="mb-4">
-            <label className="block text-blue-300 py-2 font-bold mb-2" for="emailaddress">
-              Introduction Text
-            </label>
+            <article class="prose text-indigo-100 lg:prose-xl">
+              <p>
+              In the not-too-distant future, AI recommendation algorithms are taking over people’s daily life. Tech giants, after realizing it is somewhat inefficient to gather user information separately, decided to form a cartel that collects your data through one API, a collective algorithm called AIGO. At first, everything is working quite similarly as before, you still receive somewhat inaccurate information, and people are not quite reluctant to do this. After all, who cares about “Terms & Conditions” when there is no significant change to your service? But then as AIGO receives more training data, it evolves to be more potent and soon people start to enjoy a more accurate recommendation. Not just predicting what kind of video you may find laughable on TikTok, but rather the best choice of everything, physical or virtual. People are getting more and more reliant on the AIGO system.
+              </p>
+            </article>
           </div>
 
           <div className="flex items-center justify-between pt-4">
@@ -24,7 +26,7 @@ const Intro = () => (
                 className="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
                 type="button"
               >
-                Start Text Game
+                Start Your Story
               </button>
             </Link>
           </div>
