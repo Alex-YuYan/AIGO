@@ -15,7 +15,7 @@ const Prologue = () => (
 
           <form className="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
             <div className="mb-4">
-              <article className="prose text-indigo-100 lg:prose-xl max-w-none">
+              <article className="prose text-indigo-100 lg:prose-xl xs:prose-sm max-w-none">
                 <p>
                 One day, you wake up to find that AIGO has updated its terms of use. It now requires all your personal data, for the purpose of providing more accurate recommendations. On the basis of the basic personal information you have granted it before, it now includes your financial information, healthcare record, and even access to the surveillance cameras at your workplace and home, which you installed to prevent theft.
                 </p>
@@ -31,21 +31,22 @@ const Prologue = () => (
               </article>
             </div>
 
-            <div className="flex items-center justify-between pt-4">
+            <div className="flex items-center justify-center pr-20">
               <Link to="/plot1A">
               <button
                 className="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
                 type="button"
               >
-                Accept AIGO's updated terms and conditions
+                &larr; Accept AIGO's updated terms and conditions
               </button>
               </Link>
-            
+              </div>
+              <div className="flex items-center justify-center mt-5 pl-20">
               <button
-                className="bg-gradient-to-r from-green-800 to-purple-500 hover:from-green-500 hover:to-pink-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+                className="bg-gradient-to-r from-green-500 to-purple-800 hover:from-green-500 hover:to-pink-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
                 type="button"
               >
-                Reject and start your day without the help of AIGO
+                Reject and start your day without the help of AIGO &rarr;
               </button>
             </div>
           </form>

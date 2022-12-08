@@ -13,10 +13,14 @@ function App() {
           </Link>
         </div>
       </div>
+
+
       <Routes>
         <Route path="/" element={<Intro />} />
         <Route path="prologue" element={<Prologue />} />
+        <Route path="plot1A" />
       </Routes>
+
       {/* Footer */}
       <div className="w-full pt-16 pb-6 text-sm text-center md:text-left fade-in">
         <span></span>

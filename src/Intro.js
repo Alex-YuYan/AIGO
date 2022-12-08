@@ -13,7 +13,7 @@ const Intro = () => (
 
         <div className="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
           <div className="mb-4">
-            <article className="prose text-indigo-100 prose-xl lg:prose-xl max-w-none">
+            <article className="prose text-indigo-100 prose-xl lg:prose-xl xs:prose-sm max-w-none">
               <p>
               In the not-too-distant future, AI recommendation algorithms are taking over people's daily life. Tech giants, after realizing it is somewhat inefficient to gather user information separately, decided to form a cartel that collects your data through one API, a collective algorithm called AIGO. 
               </p>
