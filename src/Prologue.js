@@ -13,7 +13,7 @@ const Prologue = () => (
             </span>
           </h1>
 
-          <form className="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
+          <div className="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
             <div className="mb-4">
               <article className="prose text-indigo-100 lg:prose-xl xs:prose-sm max-w-none">
                 <p>
@@ -49,7 +49,7 @@ const Prologue = () => (
                 Reject and start your day without the help of AIGO &rarr;
               </button>
             </div>
-          </form>
+          </div>
         </div>
       </div>
     </div>

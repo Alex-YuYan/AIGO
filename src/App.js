@@ -1,6 +1,8 @@
 import { Routes, Route, Link } from "react-router-dom";
 import Prologue from "./Prologue";
 import Intro from "./Intro";
+import Notfound from "./Notfound";
+import Plot1A from "./Plots/Plot1A";
 
 function App() {
   return (
@@ -18,7 +20,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Intro />} />
         <Route path="prologue" element={<Prologue />} />
-        <Route path="plot1A" />
+        <Route path="plot1A" element={<Plot1A />}/>
+        <Route path="*" element={<Notfound />} />
       </Routes>
 
       {/* Footer */}
