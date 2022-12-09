@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom"
-
 const Notfound = () => (
     <div className="h-full">
       {/* Main */}

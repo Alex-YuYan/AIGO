@@ -46,32 +46,37 @@ const Plot1A = () => (
                 </p>
 
                 <p>
-                  One day you decide to invite some friends to your home and want to cook for them, so you search the online grocery stores. Suddenly you find one new grocery store you've never seen near your house, and the price is cheaper than AIGO usually recommends to you. You think this might be a new store and AIGO will recommend this store today so you ask: “AIGO, give me the choice of the grocery store I can go to.” “Yes, sir. We commend you to the Harris Teeter and Orchard Grocer Grocery store.” “It is so strange, why does AIGO not recommend to me a cheaper grocery store like the one I found?” You realize that the algorithm is only recommending you products that are at a higher-than-usual price. You now want to refuse the choice AIGO recommends to you and select a cheaper alternative manually, but then AIGO pops up and says: “Sir if you do so,  you will be automatically removed from the recommendation system.”
+                  Today you are inviting some friends to your place for dinner and want to cook for them. On the way home, you happen to find a grocery store on your map you've never checked out before, and the price is cheaper than AIGO usually recommends to you. You think this might be a new store and AIGO will recommend this store today so you asked, “AIGO, give me the choice of nearby grocery stores.” 
                 </p>
                 <p>
-                  Now you are caught in a dilemma. Should you choose to continue using AIGO since it has brought so much convenience to your life? Or should you give up AIGO, and do things manually for a potentially better choice?
+                 But the recommendation does not include the one you found. Why does AIGO not recommend to me a cheaper grocery store like the one I found? You realize that the algorithm is only recommending you products that are at a higher-than-usual price. And this gives you throwbacks on how search engines exploited page rank algorithms to earn more money. You now wish to refuse the choice AIGO recommends to you and select a cheaper alternative manually, but then AIGO pops up and says: “Sir, if you do so, you will not be eligible for our smart shopping tips.”
+                </p>
+                <p>
+                  Now you are caught in a dilemma. Ever since you started using AIGO, you have always followed AIGO's directions while shopping. And AIGO has done a fantastic job. You are afraid that disabling it would cause some unexpected and unnecessary troubles to your life, since now you have no idea what to buy for a decent dinner. Would you choose to continue using AIGO since it has brought so much convenience to your life? Or would you give up AIGO for a potentially better choice?
                 </p>
               </p>
             </article>
           </div>
 
           <div className="flex items-center justify-center pr-20">
-            <Link to="/plot1A">
+            <Link to="/plot2A">
               <button
                 className="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
                 type="button"
               >
-                &larr;
+                &larr; Maybe AIGO has its own reasons
               </button>
             </Link>
           </div>
           <div className="flex items-center justify-center mt-5 pl-20">
-            <button
+          <Link to="/plot2B">
+            <button onClick={() => {window.scrollTo(0, 0);}}
               className="bg-gradient-to-r from-green-500 to-purple-800 hover:from-green-500 hover:to-pink-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
               type="button"
             >
-              &rarr;
+              Trust yourself and end AIGO service &rarr;
             </button>
+            </Link>
           </div>
         </div>
       </div>
