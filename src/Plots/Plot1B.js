@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import plot1B from '../Images/plot1B.png'
 
 const Plot1B = () => (
   <div className="h-full">
@@ -14,6 +15,9 @@ const Plot1B = () => (
         </h1>
 
         <form className="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
+          <div className="flex items-center justify-center pb-5">
+            <img src={plot1B} className="object-cover h-60 rounded-lg" />
+          </div>
           <div className="mb-4">
             <article className="prose text-indigo-100 lg:prose-xl xs:prose-sm max-w-none">
               <p>
@@ -33,7 +37,7 @@ const Plot1B = () => (
 
           <div className="flex items-center justify-center pr-20">
             <Link to="/plot1A">
-              <button onClick={() => {window.scrollTo(0, 0);}}
+              <button onClick={() => { window.scrollTo(0, 0); }}
                 className="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
                 type="button"
               >
@@ -42,13 +46,13 @@ const Plot1B = () => (
             </Link>
           </div>
           <div className="flex items-center justify-center mt-5 pl-20">
-          <Link to="/plot2C">
-            <button onClick={() => {window.scrollTo(0, 0);}}
-              className="bg-gradient-to-r from-green-500 to-purple-800 hover:from-green-500 hover:to-pink-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
-              type="button"
-            >
-              Not getting recommendations for food is no big deal. &rarr;
-            </button>
+            <Link to="/plot2C">
+              <button onClick={() => { window.scrollTo(0, 0); }}
+                className="bg-gradient-to-r from-green-500 to-purple-800 hover:from-green-500 hover:to-pink-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+                type="button"
+              >
+                Not getting recommendations for food is no big deal. &rarr;
+              </button>
             </Link>
           </div>
         </form>

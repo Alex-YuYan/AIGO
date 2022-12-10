@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import aigo from "./Images/aigo_terminal.png"
 const Intro = () => (
   <>
     <div className="container mx-auto w-full items-center justify-center flex flex-wrap flex-col md:flex-row items-center">
@@ -12,6 +13,9 @@ const Intro = () => (
         </h1>
 
         <div className="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
+          <div className="flex items-center justify-center pb-5">
+            <img src={aigo} className="object-cover h-80 rounded-lg" />
+          </div>
           <div className="mb-4">
             <article className="prose text-indigo-100 lg:prose-xl xs:prose-sm max-w-none">
               <p>

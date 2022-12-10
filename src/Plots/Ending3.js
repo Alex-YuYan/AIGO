@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import ending3 from '../Images/ending3.png'
 
 const Ending3 = () => (
   <div className="h-full">
@@ -14,6 +15,9 @@ const Ending3 = () => (
         </h1>
 
         <form className="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
+          <div className="flex items-center justify-center pb-5">
+            <img src={ending3} className="object-cover h-60 rounded-lg" />
+          </div>
           <div className="mb-4">
             <article className="prose text-indigo-100 lg:prose-xl xs:prose-sm max-w-none">
               <p>It is a normal day of fighting AIGO. You still believe that not giving all your private information to AIGO is the correct choice. Although your life is not that convenient, you can still. Unfortunately, one day the bad news comes that your last remaining relative, your father, suddenly calls to say that he is feeling very unwell and asks if you could hurry over to see him and bring him to the hospital.&nbsp;</p>

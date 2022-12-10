@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import plot2A from '../Images/plot2A.png'
 
 const Plot2A = () => (
   <div className="h-full">
@@ -14,6 +15,9 @@ const Plot2A = () => (
         </h1>
 
         <form className="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
+          <div className="flex items-center justify-center pb-5">
+            <img src={plot2A} className="object-cover h-60 rounded-lg" />
+          </div>
           <div className="mb-4">
             <article className="prose text-indigo-100 lg:prose-xl xs:prose-sm max-w-none">
               <p>

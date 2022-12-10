@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import plot1A from '../Images/plot1A.png'
 
 const Plot1A = () => (
   <div className="h-full">
@@ -14,6 +15,9 @@ const Plot1A = () => (
         </h1>
 
         <div className="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
+          <div className="flex items-center justify-center pb-5">
+            <img src={plot1A} className="object-cover h-60 rounded-lg" />
+          </div>
           <div className="mb-4">
             <article className="prose text-indigo-100 lg:prose-xl xs:prose-sm max-w-none">
               <p>
@@ -49,10 +53,10 @@ const Plot1A = () => (
                 </p>
 
                 <p>
-                  Today you are inviting some friends to your place for dinner and want to cook for them. On the way home, you happen to find a grocery store on your map you've never checked out before, and the price is cheaper than AIGO usually recommends to you. You think this might be a new store and AIGO will recommend this store today so you asked, “AIGO, give me the choice of nearby grocery stores.” 
+                  Today you are inviting some friends to your place for dinner and want to cook for them. On the way home, you happen to find a grocery store on your map you've never checked out before, and the price is cheaper than AIGO usually recommends to you. You think this might be a new store and AIGO will recommend this store today so you asked, “AIGO, give me the choice of nearby grocery stores.”
                 </p>
                 <p>
-                 But the recommendation does not include the one you found. Why does AIGO not recommend to me a cheaper grocery store like the one I found? You realize that the algorithm is only recommending you products that are at a higher-than-usual price. And this gives you throwbacks on how search engines exploited page rank algorithms to earn more money. You now wish to refuse the choice AIGO recommends to you and select a cheaper alternative manually, but then AIGO pops up and says: “Sir, if you do so, you will not be eligible for our smart shopping tips.”
+                  But the recommendation does not include the one you found. Why does AIGO not recommend to me a cheaper grocery store like the one I found? You realize that the algorithm is only recommending you products that are at a higher-than-usual price. And this gives you throwbacks on how search engines exploited page rank algorithms to earn more money. You now wish to refuse the choice AIGO recommends to you and select a cheaper alternative manually, but then AIGO pops up and says: “Sir, if you do so, you will not be eligible for our smart shopping tips.”
                 </p>
                 <p>
                   Now you are caught in a dilemma. Ever since you started using AIGO, you have always followed AIGO's directions while shopping. And AIGO has done a fantastic job. You are afraid that disabling it would cause some unexpected and unnecessary troubles to your life, since now you have no idea what to buy for a decent dinner. Would you choose to continue using AIGO since it has brought so much convenience to your life? Or would you give up AIGO for a potentially better choice?
@@ -63,7 +67,7 @@ const Plot1A = () => (
 
           <div className="flex items-center justify-center pr-20">
             <Link to="/plot2A">
-              <button onClick={() => {window.scrollTo(0, 0);}}
+              <button onClick={() => { window.scrollTo(0, 0); }}
                 className="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
                 type="button"
               >
@@ -72,13 +76,13 @@ const Plot1A = () => (
             </Link>
           </div>
           <div className="flex items-center justify-center mt-5 pl-20">
-          <Link to="/plot2B">
-            <button onClick={() => {window.scrollTo(0, 0);}}
-              className="bg-gradient-to-r from-green-500 to-purple-800 hover:from-green-500 hover:to-pink-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
-              type="button"
-            >
-              Trust yourself and end AIGO service &rarr;
-            </button>
+            <Link to="/plot2B">
+              <button onClick={() => { window.scrollTo(0, 0); }}
+                className="bg-gradient-to-r from-green-500 to-purple-800 hover:from-green-500 hover:to-pink-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+                type="button"
+              >
+                Trust yourself and end AIGO service &rarr;
+              </button>
             </Link>
           </div>
         </div>

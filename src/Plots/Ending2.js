@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import ending2 from '../Images/ending2.png'
 
 const Ending2 = () => (
   <div className="h-full">
@@ -14,6 +15,9 @@ const Ending2 = () => (
         </h1>
 
         <form className="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
+          <div className="flex items-center justify-center pb-5">
+            <img src={ending2} className="object-cover h-60 rounded-lg" />
+          </div>
           <div className="mb-4">
             <article className="prose text-indigo-100 lg:prose-xl xs:prose-sm max-w-none">
               <p>A short recap: your data has already been leaked out, and AIGO is still using your private information. Now you have very little privacy left and have lost the convenience provided by AIGO. If you want to accept it again, you need to pay a huge amount of money.&nbsp;</p>

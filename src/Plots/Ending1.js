@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import ending1 from '../Images/ending1.png'
 
 const Ending1 = () => (
   <div className="h-full">
@@ -14,6 +15,9 @@ const Ending1 = () => (
         </h1>
 
         <form className="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
+          <div className="flex items-center justify-center pb-5">
+            <img src={ending1} className="object-cover h-60 rounded-lg" />
+          </div>
           <div className="mb-4">
             <article className="prose text-indigo-100 lg:prose-xl xs:prose-sm max-w-none">
               <p>Years have passed and you have been living on AIGO every day. You enjoy the convenience it brings to your life, and it acts more like your savior in many cases. The dependency grows fast. Now you have formed a habit of asking AIGO&rsquo;s advice in advance to make any decisions, and after hearing the analysis performed by AIGO, you always go with AIGO&rsquo;s choice. &ldquo;It&rsquo;s not because I&rsquo;m controlled by AIGO,&rdquo; you reassure yourself every time, &ldquo;it&rsquo;s that AIGO&rsquo;s decision is really based and reasonable.&rdquo;</p>
