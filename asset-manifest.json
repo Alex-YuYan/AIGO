@@ -1,14 +1,25 @@
 {
   "files": {
-    "main.css": "./static/css/main.12c83ad0.css",
-    "main.js": "./static/js/main.b5391ec3.js",
+    "main.css": "./static/css/main.e883f770.css",
+    "main.js": "./static/js/main.373b3c31.js",
+    "static/media/ending3.png": "./static/media/ending3.9ee46f4ba4a09de2571e.png",
+    "static/media/plot2A.png": "./static/media/plot2A.4007694d3af9c15b6157.png",
+    "static/media/plot2B.png": "./static/media/plot2B.6e78cb7487d28150cd22.png",
+    "static/media/plot1B.png": "./static/media/plot1B.160f8965e5c05702f920.png",
+    "static/media/aigo_terminal.png": "./static/media/aigo_terminal.9c0ebcc7a642e87ff1bb.png",
+    "static/media/ending1.png": "./static/media/ending1.c4ac59b471217333204a.png",
+    "static/media/plot2C.png": "./static/media/plot2C.ec4e7c5c18b5c996ef23.png",
+    "static/media/plot1A.png": "./static/media/plot1A.606e57c7da972eeb4cdf.png",
+    "static/media/ending2.png": "./static/media/ending2.cf2b221900d80cb2411f.png",
     "static/media/header.png": "./static/media/header.13a0210d5b068658f791.png",
+    "static/media/plot3A.png": "./static/media/plot3A.200d9b980fdbc7c426b6.png",
+    "static/media/prologue.webp": "./static/media/prologue.a0ae9fb57646ce731ec2.webp",
     "index.html": "./index.html",
-    "main.12c83ad0.css.map": "./static/css/main.12c83ad0.css.map",
-    "main.b5391ec3.js.map": "./static/js/main.b5391ec3.js.map"
+    "main.e883f770.css.map": "./static/css/main.e883f770.css.map",
+    "main.373b3c31.js.map": "./static/js/main.373b3c31.js.map"
   },
   "entrypoints": [
-    "static/css/main.12c83ad0.css",
-    "static/js/main.b5391ec3.js"
+    "static/css/main.e883f770.css",
+    "static/js/main.373b3c31.js"
   ]
 }
