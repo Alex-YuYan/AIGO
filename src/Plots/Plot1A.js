@@ -17,6 +17,9 @@ const Plot1A = () => (
           <div className="mb-4">
             <article className="prose text-indigo-100 lg:prose-xl xs:prose-sm max-w-none">
               <p>
+                You accept the updated terms and conditions, and become a member of AIGO. No matter what emotional conflict you have had, you are a follower of the trend now.
+              </p>
+              <p>
                 “Congratulations! You've accepted the new terms of AIGO! Now we can provide you with recommendations for restaurants, tickets, hotels, and almost everything! We will make sure your life will be more convenient than ever before!”  AIGO projects this message in front of you. You decided to accept the terms of AIGO and let it take over all your personal data for future convenience.
 
                 <p>
