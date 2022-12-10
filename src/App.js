@@ -8,6 +8,9 @@ import Plot2C from "./Plots/Plot2C";
 import Plot2A from "./Plots/Plot2A";
 import Plot2B from "./Plots/Plot2B";
 import Plot3A from "./Plots/Plot3A";
+import Ending1 from "./Plots/Ending1";
+import Ending3 from "./Plots/Ending3";
+import Ending2 from "./Plots/Ending2";
 
 function App() {
   return (
@@ -31,6 +34,9 @@ function App() {
         <Route path="plot2B" element={<Plot2B />} />
         <Route path="plot2C" element={<Plot2C />} />
         <Route path="plot3A" element={<Plot3A />} />
+        <Route path="ending1" element={<Ending1 />} />
+        <Route path="ending2" element={<Ending2 />} />
+        <Route path="ending3" element={<Ending3 />} />
         <Route path="*" element={<Notfound />} />
       </Routes>
 

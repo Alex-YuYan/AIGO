@@ -94,7 +94,7 @@ const Plot3A = () => (
             </Link>
           </div>
           <div className="flex items-center justify-center mt-5 pl-20">
-            <Link to="__Plot__">
+            <Link to="/ending3">
               <button onClick={() => { window.scrollTo(0, 0); }}
                 className="bg-gradient-to-r from-green-500 to-purple-800 hover:from-green-500 hover:to-pink-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
                 type="button"
