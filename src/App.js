@@ -44,9 +44,6 @@ function App() {
 
       {/* Footer */}
       <div className="w-full pt-10 mb-10 text-sm text-center fade-in">
-        <span className="text-indigo-400">Website made by Alex Yan<br>
-        </br>
-        Content created by Alex Yan, Andy Feng, Andrew Cao</span>
       </div>
     </>
   );
